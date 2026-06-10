@@ -1,0 +1,13 @@
+<div class="form-container">
+
+  <h2>Add Student</h2>
+
+  <input placeholder="Name" [(ngModel)]="student.name"><br>
+  <input placeholder="Age" [(ngModel)]="student.age"><br>
+  <input placeholder="Course" [(ngModel)]="student.course"><br>
+<div *ngIf="message" class="pop-up" style="color: blue;">
+    {{message}}
+</div>
+  <button (click)="save()">Save</button>
+
+</div>

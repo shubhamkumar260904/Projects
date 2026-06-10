@@ -1,0 +1,12 @@
+<div class="form-container">
+<h2>Edit Student</h2>
+
+<input [(ngModel)]="student.name"><br>
+<input [(ngModel)]="student.age"><br>
+<input [(ngModel)]="student.course"><br>
+
+<div *ngIf="message" class="pop-up" style="color: blue;">
+    {{message}}
+</div>
+<button (click)="update()">Update</button>
+</div>

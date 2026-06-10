@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "name": "tom_jerry",
+      "age": "23",
+      "course": "C++",
+      "id": "pS1asTfmDiE"
+    },
+    {
+      "name": "for",
+      "age": "22",
+      "course": "ISE",
+      "id": "Mpina1xNB04"
+    },
+    {
+      "name": "Rahul",
+      "age": "21",
+      "course": "CSE",
+      "id": "QGd2L6iGN4Y"
+    },
+    {
+      "name": "Anjali",
+      "age": "22",
+      "course": "CSE",
+      "id": "hKNOsMwYOQ8"
+    },
+    {
+      "name": "abcd",
+      "age": "34",
+      "course": "CSE",
+      "id": "rUC4RzLb8iQ"
+    },
+    {
+      "name": "ORANGE23",
+      "age": "22",
+      "course": "ISE",
+      "id": "Ay9_buPTZ1o"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

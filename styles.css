@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  background: linear-gradient(aqua,purple);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav {
+  text-align: center;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  ;
+}
+
+.nav a:hover {
+  color: green;
+}
